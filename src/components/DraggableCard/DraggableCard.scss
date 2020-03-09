@@ -1,0 +1,10 @@
+.draggable {
+  &__card {
+    opacity: 1;
+    cursor: move;
+
+    &--invisible {
+      opacity: 0.3;
+    }
+  }
+}
