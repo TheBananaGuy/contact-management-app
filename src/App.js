@@ -12,7 +12,6 @@ function App() {
           <Route path="/" exact component={BasePages.Main} />
           <Route path="/about" exact component={BasePages.About} />
           <Route path="/contacts" exact component={Contacts.Overview} />
-          <Route path="/temp" exact component={BasePages.Temp} />
           <Route path="/" component={BasePages.Show404} />
         </Switch>
       </PageContainer>
